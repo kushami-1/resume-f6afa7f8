@@ -56,11 +56,11 @@
   .career-summary { color: #354252; font-size: 10pt; line-height: 1.52; margin: 5px 0 4px 124px; }
   .career-impact { color: #1a3556; font-size: 9.5pt; font-weight: 600; line-height: 1.45; margin-left: 124px; }
   .career-impact strong { color: #C00000; }
-  .early-list { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
-  .early-item { background: #fff; border: 1px solid #e3eaf2; border-radius: 8px; padding: 8px 9px; min-height: 76px; }
-  .early-item h4 { color: #162331; font-size: 9.8pt; line-height: 1.3; }
-  .early-item h4 span { color: #1F5F9C; font-size: 8.5pt; font-weight: 600; }
-  .early-item p { color: #536274; font-size: 8.4pt; line-height: 1.42; margin-top: 3px; }
+  .early-list { display: grid; grid-template-columns: 1fr 1fr; gap: 7px; }
+  .early-item { background: #fff; border: 1px solid #e3eaf2; border-radius: 8px; padding: 7px 8px; min-height: 65px; }
+  .early-item h4 { color: #162331; font-size: 9.2pt; line-height: 1.25; }
+  .early-item h4 span { color: #1F5F9C; font-size: 8pt; font-weight: 600; }
+  .early-item p { color: #536274; font-size: 8pt; line-height: 1.35; margin-top: 3px; }
   @media (max-width: 900px) {
     .career-slide .slide-inner { padding: 34px 28px; }
     .career-header { align-items: flex-start; flex-direction: column; gap: 10px; }
@@ -75,6 +75,16 @@
   .experience-card.green { border-top-color: #2d9d5f; background: #effbe6; }
   .experience-card h3 { font-size: 14pt; color: #1a3556; margin-bottom: 10px; }
   .experience-card p { font-size: 10.5pt; line-height: 1.7; color: #3d4855; }
+  .diverse-slide .slide-inner { padding: 42px 56px; }
+  .diverse-slide .slide-sub { margin-bottom: 10px; }
+  .diverse-slide .slide-divider { margin-bottom: 14px; }
+  .diverse-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 11px; }
+  .diverse-card { min-height: 210px; background: #f8fafc; border: 1px solid #e0e8f0; border-top: 4px solid #1a3556; border-radius: 9px; padding: 12px 13px; }
+  .diverse-card.blue { border-top-color: #2d5a8f; background: #eef4fc; }
+  .diverse-card.gold { border-top-color: #d49416; background: #fef9ef; }
+  .diverse-card.green { border-top-color: #2d9d5f; background: #effbe6; }
+  .diverse-card h3 { color: #1a3556; font-size: 10.5pt; line-height: 1.35; margin-bottom: 7px; }
+  .diverse-card p { color: #465466; font-size: 8.8pt; line-height: 1.52; }
 
   /* Project slide */
   .proj-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 16px; }
@@ -201,34 +211,46 @@
         </div>
       </section>
 
-      <aside class="career-panel early">
-        <div class="career-panel-head">
-          <h3>早期经历｜研究与严谨交付</h3>
-          <span>2023.11 — 2025.03</span>
-        </div>
-        <div class="early-list">
-          <article class="early-item">
-            <h4>国海证券食品饮料组 <span>｜行研</span></h4>
-            <p>完成 30+ 篇文章、17 份调研底稿及 50+ 页深度报告内容，交付从调研到写作的完整研究支持。</p>
-          </article>
-          <article class="early-item">
-            <h4>容诚会计师事务所 <span>｜审计</span></h4>
-            <p>完成 400+ 小时审计、60+ 函证与 20+ 走访，建立证据链意识和高频核验能力。</p>
-          </article>
-          <article class="early-item">
-            <h4>安永华明 <span>｜风控咨询</span></h4>
-            <p>完成 200+ 维度数据校验与 240+ 准入规则梳理，将复杂规则转为可执行口径。</p>
-          </article>
-          <article class="early-item">
-            <h4>海通证券投行部 <span>｜IPO 实习</span></h4>
-            <p>完成研发费用核查、银行流水尽调及招股书撰写支持，形成财务核查与交易材料交付能力。</p>
-          </article>
-          <article class="early-item">
-            <h4>颐海国际 <span>｜内容运营</span></h4>
-            <p>面向 130 万+ 粉丝的海底捞公众号参与内容运营交付，形成内容策划与用户沟通能力。</p>
-          </article>
-        </div>
-      </aside>
+<aside class="career-panel early">
+<div class="career-panel-head">
+<h3>早期经历｜研究、专业服务与公共事务</h3>
+<span>2023.11 — 2025.03 · 7 段实习</span>
+</div>
+<div class="early-list">
+<article class="early-item">
+<h4>东方财富证券 <span>｜行业研究</span></h4>
+<p>参与食品饮料行业研究，完成行业追踪、资料梳理与研究支持。</p>
+</article>
+<article class="early-item">
+<h4>国海证券食品饮料组 <span>｜行研</span></h4>
+<p>完成 30+ 篇文章、17 份调研底稿及 50+ 页深度报告。</p>
+</article>
+<article class="early-item">
+<h4>容诚会计师事务所 <span>｜审计</span></h4>
+<p>完成 400+ 小时审计、60+ 函证、500+ 凭证抽查与 20+ 走访。</p>
+</article>
+<article class="early-item">
+<h4>郑州市科技局高新技术处 <span>｜工作助理</span></h4>
+<p>参与高企走访与大会筹备，协同 8 位领导及 3 位院士邀约和活动保障。</p>
+</article>
+<article class="early-item">
+<h4>安永华明 <span>｜风控咨询</span></h4>
+<p>完成 200+ 维度数据校验与 240+ 贷前反欺诈准入规则梳理。</p>
+</article>
+<article class="early-item">
+<h4>颐海国际（海底捞调味料） <span>｜内容运营</span></h4>
+<p>参与 130 万+ 粉丝公众号的内容策划、用户增长与 IP 联名促销。</p>
+</article>
+<article class="early-item">
+<h4>国泰海通证券投行部 <span>｜股权承做</span></h4>
+<p>完成研发费用核查、银行流水尽调、资本费用拆分与招股书撰写支持。</p>
+</article>
+<article class="early-item">
+<h4>校园大使、社群与竞赛 <span>｜在校经历</span></h4>
+<p>担任 10+ 企业校园大使，运营 3,000+ 人商科社群，参与 60+ 场竞赛。</p>
+</article>
+</div>
+</aside>
     </div>
   </div>
 </section>
@@ -360,32 +382,44 @@
 </section>
 
 <!-- ═══════════ Slide 6: 多元职业经历 ═══════════ -->
-<section class="slide">
+<section class="slide diverse-slide">
   <div class="slide-inner">
     <h2 class="slide-title">多元职业经历</h2>
-    <p class="slide-sub">行业研究 · 审计与投行 · 风控咨询 · 内容运营</p>
+    <p class="slide-sub">2023.11 — 2025.03 · 行业研究、审计与风控、投行、公共事务、内容运营及校园项目</p>
     <div class="slide-divider"></div>
-    <div class="experience-grid">
-      <div class="experience-card blue">
-        <h3>国海证券食品饮料组｜行业研究实习生</h3>
-        <p>完成 30+ 篇文章、17 份调研底稿及 50+ 页深度报告内容，交付从调研到写作的完整研究支持。</p>
-      </div>
-      <div class="experience-card gold">
-        <h3>容诚会计师事务所｜审计助理</h3>
-        <p>累计完成 400+ 小时审计、60+ 函证及 20+ 客户和供应商走访，构建审计证据链。</p>
-      </div>
-      <div class="experience-card green">
-        <h3>安永华明｜风控咨询实习生</h3>
-        <p>完成 200+ 维度数据校验与 240+ 准入规则梳理，将复杂规则转为可执行数据口径。</p>
-      </div>
-      <div class="experience-card blue">
-        <h3>海通证券投行部｜IPO 实习生</h3>
-        <p>完成研发费用核查、银行流水尽调及招股书撰写支持，形成财务核查与交易材料交付能力。</p>
-      </div>
-      <div class="experience-card green">
-        <h3>颐海国际｜内容运营实习生</h3>
-        <p>面向 130 万+ 粉丝的海底捞公众号参与内容运营交付，形成内容策划与用户沟通能力。</p>
-      </div>
+    <div class="diverse-grid">
+      <article class="diverse-card blue">
+        <h3>东方财富证券<br>行业研究</h3>
+        <p>参与食品饮料方向行业研究，完成行业追踪、资料梳理与研究支持，建立对消费行业的持续跟踪能力。</p>
+      </article>
+      <article class="diverse-card blue">
+        <h3>国海证券食品饮料组<br>行业研究实习生</h3>
+        <p>完成 30+ 篇文章、17 份调研底稿及 50+ 页深度报告内容，覆盖调研、分析到写作的完整研究支持。</p>
+      </article>
+      <article class="diverse-card gold">
+        <h3>容诚会计师事务所<br>审计助理</h3>
+        <p>完成 400+ 小时审计、60+ 函证、500+ 凭证抽查及 20+ 客户与供应商走访，构建审计证据链。</p>
+      </article>
+      <article class="diverse-card green">
+        <h3>郑州市科技局高新技术处<br>工作助理</h3>
+        <p>参与高新技术企业走访与大会筹备，协同 8 位领导及 3 位院士邀约、科技企业调研和现场保障。</p>
+      </article>
+      <article class="diverse-card green">
+        <h3>安永华明<br>风控咨询实习生</h3>
+        <p>完成 200+ 维度数据校验与变量筛选，梳理 240+ 贷前反欺诈准入规则，将复杂规则转为可执行口径。</p>
+      </article>
+      <article class="diverse-card gold">
+        <h3>颐海国际（海底捞调味料）<br>内容运营实习生</h3>
+        <p>参与 130 万+ 粉丝公众号内容策划、用户增长活动与 IP 联名促销，覆盖“海底捞调味料”“筷手小厨”等账号。</p>
+      </article>
+      <article class="diverse-card blue">
+        <h3>国泰海通证券投行部<br>IPO 股权承做实习生</h3>
+        <p>完成研发费用核查、银行流水尽调、资本化与费用化拆分及招股书撰写支持，服务拟上市企业项目推进。</p>
+      </article>
+      <article class="diverse-card">
+        <h3>校园大使、商科社群与竞赛<br>在校经历</h3>
+        <p>担任 10+ 企业校园大使，创建并运营 3,000+ 人国内外商科生社群，参与 60+ 场国内外竞赛。</p>
+      </article>
     </div>
   </div>
 </section>
